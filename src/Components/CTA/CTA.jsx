@@ -1,8 +1,20 @@
 import React from 'react'
+import './CTA.css'
+import img from '../../Media/Imagebg.png'
 
 const CTA = () => {
   return (
-    <div>CTA</div>
+    <section className="cta">
+      <div className="ctaWrapper">
+        <div className="cpaTitle">
+          You can contribute to make the environment greener!
+        </div>
+        <div className="buttons">
+          <button className="btn1">Join as a volunteer</button>
+          <button className="btn2">Donate</button>
+        </div>
+      </div>
+    </section>
   )
 }
 
