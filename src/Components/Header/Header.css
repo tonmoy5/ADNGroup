@@ -1,6 +1,7 @@
 .header{
   background: #EFF7F2;
   padding: 96px 0;
+  height: 576px;
 }
 .wrapper{
   display: flex;
