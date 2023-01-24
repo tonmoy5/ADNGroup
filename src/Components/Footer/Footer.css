@@ -1,0 +1,73 @@
+.footer{
+  background-color: var(--black);
+  margin-top: 96px;
+}
+.footerWrapper{
+  width: 1280px;
+  padding: 96px 0;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  gap: 140px;
+}
+
+/************************** Left Side ************************/
+.left{
+  flex: 1;
+}
+.footer-logo{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/*************************** Center Block ********************************/
+.center{
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.center ul li{
+  color: #fff;
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.bottom{
+  flex: 3;
+}
+
+
+
+/******************************************* Right Block ********************************/
+.right{
+  flex: 3;
+}
+.footerHeading{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+}
+.subscribeBar{
+  width: 100%;
+  position: relative;
+}
+.email{
+  margin-top: 32px;
+  width: 80%;
+  background: transparent;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  border-radius: 4px 0px 0px 4px;
+  padding: 22px;
+}
+.subBtn{
+  position: absolute;
+  right: 0;
+  top: 32px;
+  padding: 22px;
+  color: black;
+  border: none;
+}

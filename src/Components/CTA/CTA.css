@@ -5,6 +5,7 @@
   width: 1280px;
   margin: 0 auto;
   height: 384px;
+  border-radius: 12px;
   background-image: url("../../Media/Imagebg.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
   display: flex;
@@ -36,5 +37,6 @@
   background-color: var(--green-primary);
 }
 .btn2{
-  background-color: var(--black);
+  background-color: #FFF;
+  color: black;
 }

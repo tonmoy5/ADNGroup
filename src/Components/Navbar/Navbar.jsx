@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="wrapper">
         <div className="navbar-left">
-          <Link to="/" className="navbar-logo">{"{"}Finsweet</Link>
+          <Link to="/" className="navbar-logo">{"{"} Finsweet</Link>
         </div>
         <div className="navbar-right">
           <ul className="navbar-links">

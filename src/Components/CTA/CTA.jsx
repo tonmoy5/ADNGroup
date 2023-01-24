@@ -1,6 +1,5 @@
 import React from 'react'
 import './CTA.css'
-import img from '../../Media/Imagebg.png'
 
 const CTA = () => {
   return (
