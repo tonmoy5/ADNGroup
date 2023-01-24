@@ -1,0 +1,29 @@
+.use {
+  background-color: #fff;
+}
+
+.use .wrapper {
+  padding: 96px 0;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 90px;
+}
+
+.use .left {
+  flex: 1;
+}
+
+.useTitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--primary-color);
+}
+
+.use .right,
+.use .center {
+  flex: 1;
+  color: var(--secondary-color);
+  align-self: flex-start;
+}

@@ -4,6 +4,7 @@
   height: 576px;
 }
 .wrapper{
+  width: 1280px;
   display: flex;
 }
 
