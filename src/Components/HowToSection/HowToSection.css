@@ -1,0 +1,34 @@
+.howto{
+  background-color: #fff;
+}
+.Howto_wrapper{
+  padding: 96px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+.howto .left{
+  flex: 1;
+}
+.howtotitle{
+  width: 592px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--primary-color);
+}
+.hotoSubtitle{
+  color: var(--secondary-color);
+  width: 592px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 24px;
+}
+
+
+
+.howto .right{
+  flex: 1;
+}

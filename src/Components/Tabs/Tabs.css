@@ -1,0 +1,20 @@
+.tabs{
+  display: flex;
+  color: var(--primary-color);
+}
+.tab{
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+.tab.active{
+  border-bottom: 2px solid green;
+}
+.tab-content{
+  margin-top: 24px;
+  width: 592px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--secondary-color);
+}
