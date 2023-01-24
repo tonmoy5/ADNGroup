@@ -8,3 +8,7 @@
   text-decoration: none;
   color: inherit;
 }
+:root {
+  --primary-color: #1D2130; 
+  --secondary-color: #525560 
+}
